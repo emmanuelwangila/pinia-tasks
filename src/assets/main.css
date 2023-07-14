@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background: white;
+  margin: 2;
+  padding: 2;
+  color: darkgrey;
+}
+body {
+  font-family:'Poppins', 'sans-serif' ;
+}
+
+header{
+  background: papayawhip;
+  text-align: center;
+  place-items: center;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+  border-radius: 3px;
+}
+header img{
+  max-width: 80px;
+  transform: rotate(-10deg);
+}
+
+header h1{
+  display: flex;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  color: blue;
+  margin: 10px;
+  transform: rotate(3deg);
+}
+
+.task-list{
+  max-width: 650px;
+  margin: 20px auto;
+
+  
+  
+  
+  
+}
+
+.task{
+  padding: 6px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  background: ghostwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.task h3, .task .icons{
+  display: inline-block;
+}
+
+.task-icons{
+  text-align: right;
+}
+
+.task i {
+  font-size: 1.4rem;
+  margin-left: 6px;
+  cursor: pointer;
+  color: blue;
+}
+
+.task i.active{
+  color: red;
+}
+
+.filter{
+  max-width: 650px;
+  text-align: right;
+  margin: 10px auto;
+}
+
+.filter button{
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  background: #ffff;
+}
+
+.new-tasks-form {
+  
+  background: #ffff;
+  padding: 20px 0;
+}
+
+form{
+  display: grid;
+  max-width: 640px;
+  margin: 0 auto;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+form button{
+  background: rgb(11, 11, 180);
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1em;
+  padding: 9px;
+  width: 80px;
+}
+
+form input{
+  border-color: blue;
+  background: rgb(223, 210, 210);
+  border: 2px;
+  border-radius: 3px;
+  padding: 6px;
+  margin: 2px;
+  color: rgb(68, 62, 62);
+}
+
+.loading{
+  max-width: 64opx;
+  border: blue;
+  background: blue;
+  padding: 5px 0;
+  text-align: center;
+  margin: 30px auto;
+  color: gray;
+}
